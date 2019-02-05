@@ -1228,9 +1228,9 @@ class Blob(_PropertyMixin):
         to that project.
 
         :type size: int
-        :param size: (Optional). The maximum number of bytes that can be
-                     uploaded using this session. If the size is not known
-                     when creating the session, this should be left blank.
+        :param size: (Optional). The number of bytes that will be uploaded
+                     using this session. If the size is not known when creating
+                     the session, this should be left blank.
 
         :type content_type: str
         :param content_type: (Optional) Type of content being uploaded.
